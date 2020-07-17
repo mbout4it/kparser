@@ -57,7 +57,7 @@ namespace WaywardGamers.KParser.Monitoring
         {
             processList.Items.Clear();
 
-            polProcesses = Process.GetProcessesByName("pol");
+            polProcesses = Process.GetProcessesByName("boot");
 
             ok.Enabled = (polProcesses.Length > 0);
 
