@@ -51,7 +51,7 @@ namespace WaywardGamers.KParser.Monitoring
                     else
                     {
                         // If we're not given a specific process, scan all processes for POL.
-                        polProcesses = Process.GetProcessesByName("pol");
+                        polProcesses = Process.GetProcessesByName("boot");
                     }
 
 
